@@ -1,5 +1,21 @@
 # GEL5 - Sample Project
-This is a sample GEL5 project. Use this as a starting point when developing a GEL5 project.
+This is a sample GEL5 project. Start here!
 
-* See https://github.com/povrazor/gel5-html for the native HTML port.
-* See https://github.com/povrazor/gel5-sdl2 for the native C/C++ port.
+Checkout a runtime:
+
+* HTML5: https://github.com/povrazor/gel5-html
+* C/C++: https://github.com/povrazor/gel5-sdl2
+
+Clone me.
+
+Put your clone in the `/src/` folder:
+
+```
+cd src
+git init
+git remote add origin https://github.com/povrazor/gel5-sample.git
+git fetch
+git checkout -t origin/master
+```
+
+NOTE: Adjust the `git remote` line above accordingly.
